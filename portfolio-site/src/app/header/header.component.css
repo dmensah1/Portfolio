@@ -1,0 +1,40 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  margin: 8px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+
+.void {
+  flex: 1 1 auto;
+}
+
+mat-toolbar {
+  background-color: #EFEFEF;
+  height: 12%;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 22px;
+}
+
+mat-divider {
+  margin-bottom: 10px;
+  border-top-width: 3px;
+  border-top-color: black;
+  width: 90%;
+  margin: 0 auto;
+}
+

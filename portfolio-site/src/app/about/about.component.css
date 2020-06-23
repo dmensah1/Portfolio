@@ -1,0 +1,14 @@
+ul {
+  list-style: none;
+}
+
+ngb-carousel {
+  margin: 0 auto;
+  width: 70%;
+  height: 50%;
+}
+
+.image {
+  max-height: 550px;
+  object-fit:cover;
+}
