@@ -1,0 +1,38 @@
+{
+  "projects" : [
+    {
+      "name": "Java Sketchpad",
+      "id": "Sketchpad",
+      "summary": "test",
+      "description": "Microsoft paint like app",
+      "github": "link here",
+      "skills": [
+        "Java"
+      ],
+      "icon": "thumbnail pic here",
+      "pictures": []
+    },
+    {
+      "name": "captivateyouth.ca",
+      "id": "CaptivateYouth",
+      "summary": "Full-stack website made for the Captivate Youth Foundation.",
+      "description": "I worked as a freelance web developer for the Captivate Youth Foundation and developed their full-stack website. It is a blog site developed using the MEAN software stack. The website can be visited at captivateyouth.ca.",
+      "github": "link here",
+      "skills": [
+        "Angular",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "MongoDB"
+      ],
+      "icon": "thumbnail pic here",
+      "pictures": []
+    }
+
+
+
+
+
+  ]
+}

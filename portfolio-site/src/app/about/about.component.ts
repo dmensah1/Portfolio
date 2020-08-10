@@ -14,8 +14,8 @@ export class AboutComponent {
     config.keyboard = false;
     config.pauseOnHover = true;
 
-    this.images[0] = '/assets/project-imgs/western1.jpg';
-    this.images[1] = '/assets/project-imgs/halifax.jpg';
+    this.images[0] = '/assets/project-imgs/about/western1.jpg';
+    this.images[1] = '/assets/project-imgs/about/halifax.jpg';
 
   }
 }

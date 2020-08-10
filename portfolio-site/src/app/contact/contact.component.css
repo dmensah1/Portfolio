@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+fa-icon {
+  font-size: 70px;
+  color: black;
+}
+
+.socials-container {
+  display: flex;
+}
+
+.linkedin {
+  margin: 0 auto;
+}
+
+.github {
+  margin: 0 auto;
+}
+
+.email {
+  margin: 0 auto;
+}

@@ -22,7 +22,7 @@ a {
 mat-toolbar {
   background-color: #EFEFEF;
   height: 12%;
-  width: 85%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -37,4 +37,5 @@ mat-divider {
   width: 90%;
   margin: 0 auto;
 }
+
 
