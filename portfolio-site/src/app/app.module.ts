@@ -15,6 +15,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ContactComponent } from './contact/contact.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ProjectListComponent } from './projects/project-list/project-list.component';
+import { MatCardModule } from '@angular/material/card';
+import { ProjectViewComponent } from './projects/project-view/project-view.component';
 
 
 
@@ -25,7 +27,8 @@ import { ProjectListComponent } from './projects/project-list/project-list.compo
     AboutComponent,
     HomeComponent,
     ContactComponent,
-    ProjectListComponent
+    ProjectListComponent,
+    ProjectViewComponent
   ],
   imports: [
     BrowserModule,
@@ -36,6 +39,7 @@ import { ProjectListComponent } from './projects/project-list/project-list.compo
     AppRoutingModule,
     NgbModule,
     FontAwesomeModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

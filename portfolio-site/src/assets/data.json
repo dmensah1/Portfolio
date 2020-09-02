@@ -1,23 +1,33 @@
 {
+  "skills": [
+    "Java",
+    "JavaScript",
+    "Angular",
+    "CSS",
+    "HTML",
+    "Node.js",
+    "MongoDB",
+    "C++"
+  ],
   "projects" : [
     {
       "name": "Java Sketchpad",
       "id": "Sketchpad",
-      "summary": "test",
-      "description": "Microsoft paint like app",
-      "github": "link here",
+      "summary": "A Microsoft paint like app where users are able to draw pictures.",
+      "description": "Using Java I developed a sketchpad application where users can create drawings of their choice by selecting from the various shape and color options available. The application also has a save feature for the user to save the image that they created.",
+      "github": "https://github.com/dmensah1/Java-Sketchpad",
       "skills": [
         "Java"
       ],
-      "icon": "thumbnail pic here",
+      "icon": "assets/project-imgs/Sketchpad/thumbnail.png",
       "pictures": []
     },
     {
       "name": "captivateyouth.ca",
       "id": "CaptivateYouth",
-      "summary": "Full-stack website made for the Captivate Youth Foundation.",
-      "description": "I worked as a freelance web developer for the Captivate Youth Foundation and developed their full-stack website. It is a blog site developed using the MEAN software stack. The website can be visited at captivateyouth.ca.",
-      "github": "link here",
+      "summary": "Responsive full-stack website made for the Captivate Youth Foundation.",
+      "description": "Working as a freelance web developer, I made the responsive full-stack website of the Captivate Youth Foundation. It is a blog-style website with admin functionality for the executives of the foundation to add, update, and delete posts. AWS S3 and Elastic Beanstalk were used to deploy the website.",
+      "github": "https://github.com/dmensah1/captivate-youth",
       "skills": [
         "Angular",
         "HTML",
@@ -26,13 +36,105 @@
         "Node.js",
         "MongoDB"
       ],
-      "icon": "thumbnail pic here",
+      "icon": "assets/project-imgs/Sketchpad/thumbnail.png",
+      "pictures": []
+    },
+    {
+      "name": "Mediator Design Pattern",
+      "id": "Mediator",
+      "summary": "A form that facilitates employee profile data entry process.",
+      "description": "To gain more exposure to software design patterns I developed a simple form that facilitates employee profile data entry process using the mediator design pattern.",
+      "github": "https://github.com/dmensah1/Mediator-Design-Pattern",
+      "skills": [
+       "Java"
+      ],
+      "icon": "assets/project-imgs/Mediator/thumbnail.png",
+      "pictures": []
+    },
+    {
+      "name": "Observer Design Pattern",
+      "id": "Observer",
+      "summary": "A form that outputs results of mathematical operations using the Observer pattern.",
+      "description": "This project was done to practice my knowledge of the Observer Design Pattern. The user simply inputs two numbers and the results of the addition, multiplication, and division of the two numbers is outputted.",
+      "github": "https://github.com/dmensah1/Observer-Design-Pattern",
+      "skills": [
+       "Java"
+      ],
+      "icon": "assets/project-imgs/Observer/thumbnail.png",
+      "pictures": []
+    },
+    {
+      "name": "Sorting Algorithm Visualizer",
+      "id": "Sorting",
+      "summary": "A web app to help visualize the different ways of sorting.",
+      "description": "To help further my understanding of sorting algorithms as well as Angular, I decided to develop this web app that breaks down the common sorting algorithms step-by-step. The user can select the size of the array they want to sort, the type of sort, then watch the visualization of the sorting algorithm.",
+      "github": "https://github.com/dmensah1/sorting-algorithms-visualizer",
+      "skills": [
+       "JavaScript",
+       "Angular",
+       "HTML",
+       "CSS"
+      ],
+      "icon": "assets/project-imgs/Sorting/thumbnail.png",
+      "pictures": []
+    },
+    {
+      "name": "MyMusic",
+      "id": "MyMusic",
+      "summary": "A full-stack web app similar to IMDb for rating and reviewing songs.",
+      "description": "To gain experience using the MEAN software stack I developed this full-stack web app. Users are able to add songs to rate and review. There is added functionality for users who register such as being able to add a song to rate as well as add reviews to songs added by other users. Website also has admin functionality for monitoring posts.",
+      "github": "https://github.com/dmensah1/MyMusic-Web-App",
+      "skills": [
+       "JavaScript",
+       "Angular",
+       "HTML",
+       "CSS",
+       "MongoDB",
+       "Node.js"
+      ],
+      "icon": "assets/project-imgs/Sketchpad/thumbnail.png",
+      "pictures": []
+    },
+    {
+      "name": "Personal Portfolio Website",
+      "id": "Portfolio",
+      "summary": "My personal portfolio website.",
+      "description": "Going into my final year of university I decided to make a personal portfolio website prior to finding a new graduate job opportunity. This website allows me to go into further detail about myself and my projects than I could on a one page resume. Developing this website also helped improve my Angular and front-end design skills.",
+      "github": "https://github.com/dmensah1/Portfolio",
+      "skills": [
+       "JavaScript",
+       "Angular",
+       "HTML",
+       "CSS"
+      ],
+      "icon": "assets/project-imgs/Sketchpad/thumbnail.png",
+      "pictures": []
+    },
+    {
+      "name": "Remote Image Display",
+      "id": "RemoteImage",
+      "summary": "Socket programming project using Node.js.",
+      "description": "Based on a client-server architecture, the server provides an image to the client to download and display directly using the clients default image viewer.",
+      "github": "https://github.com/dmensah1/Remote-Image-Display",
+      "skills": [
+       "JavaScript",
+       "Node.js"
+      ],
+      "icon": "assets/project-imgs/RemoteImg/thumbnail.png",
+      "pictures": []
+    },
+    {
+      "name": "A Peer Node",
+      "id": "PeerNode",
+      "summary": "Peer-to-peer program project using Node.js.",
+      "description": "A peer to peer program i nwhich a peer that receives a join request will accept the peer if and only if its peer table is not full. If the peer's table is full then the requesting peer gets redirected to the nearest peer.",
+      "github": "https://github.com/dmensah1/A-Peer-Node",
+      "skills": [
+       "JavaScript",
+       "Node.js"
+      ],
+      "icon": "assets/project-imgs/Sketchpad/thumbnail.png",
       "pictures": []
     }
-
-
-
-
-
   ]
 }

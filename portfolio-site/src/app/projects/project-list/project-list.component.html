@@ -3,7 +3,7 @@
   <div class="language-list">
     <ul>
       <li>
-        <button mat-raised-button >C++</button>
+        <button mat-raised-button >All Projects</button>
       </li>
       <li>
         <button mat-raised-button >Java</button>
@@ -17,16 +17,36 @@
       <li>
         <button mat-raised-button>Node.js</button>
       </li>
+      <li>
+        <button mat-raised-button>HTML</button>
+      </li>
+      <li>
+        <button mat-raised-button>CSS</button>
+      </li>
+      <li>
+        <button mat-raised-button>C++</button>
+      </li>
     </ul>
   </div>
 
   <div class="project-list">
-    <ul>
-      <li>Captivate youth</li>
-      <li>Sorting Algo Visualization</li>
-      <li>Mediator Pattern</li>
-      <li>Java Sketchpad</li>
-      <li>Observer Pattern</li>
-    </ul>
+
+    <div class="blog-card-div" *ngFor="let project of projects" [routerLink]="['/project', project.id]">
+      <mat-card id="mat-card" >
+        <div class="img-container">
+          <img [src]="project.icon">
+        </div>
+
+        <div class="card-content">
+        <mat-card-header>
+          <mat-card-title>{{project.name}}</mat-card-title>
+          <mat-card-subtitle>{{project.summary}}</mat-card-subtitle>
+        </mat-card-header>
+      </div>
+      </mat-card>
+    </div>
+
   </div>
+
+
 </div>

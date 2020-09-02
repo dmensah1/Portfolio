@@ -8,5 +8,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  sidenavWidth: any;
+  
+  openNav(){
+		this.sidenavWidth = "220px";
+	}
+
+	closeNav(){
+		this.sidenavWidth = 0;
+	}
 
 }
