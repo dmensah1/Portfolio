@@ -31,8 +31,8 @@
 
   <div class="project-list">
 
-    <div class="blog-card-div" *ngFor="let project of projects" [routerLink]="['/project', project.id]">
-      <mat-card id="mat-card" >
+    <div class="blog-card-div" *ngFor="let project of projects" >
+      <mat-card id="mat-card" [routerLink]="['/project', project.id]">
         <div class="img-container">
           <img [src]="project.icon">
         </div>
@@ -46,7 +46,11 @@
       </mat-card>
     </div>
 
+    <div class="btn-wrap">
+      <button mat-raised-button class="float-right btn" (click)="goToTop()">Return to Top</button>
+    </div>
   </div>
+
 
 
 </div>

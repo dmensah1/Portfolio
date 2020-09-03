@@ -1,5 +1,51 @@
-<h1>{{ projects[0].name }}</h1>
+<div class="container">
+  <h1>{{ projects[0].name }}</h1>
 
-<p>{{ projects[0].description }}</p>
+  <div class="description">
+    <p>{{ projects[0].description }}</p>
+  </div>
 
-<button mat-raised-button><a href="{{projects[0].github}}" target="_blank"> View on Github </a></button>
+  <div class="skills">
+    <p><b><u>Built Using</u></b></p>
+    <ul>
+      <li *ngFor="let skill of projectSkills">
+        {{ skill }}
+      </li>
+    </ul>
+
+  </div>
+
+  <ngb-carousel *ngIf="projects[0].pictures">
+    <ng-template ngbSlide >
+      <img [src]="projects[0].pictures[0].src" class="image">
+      <div class="carousel-caption">
+        <h4>{{ projects[0].pictures[0].caption }}</h4>
+      </div>
+    </ng-template>
+
+    <ng-template ngbSlide *ngIf="projects[0].pictures[1]">
+      <img [src]="projects[0].pictures[1].src" class="image">
+      <div class="carousel-caption">
+        <h4>{{ projects[0].pictures[1].caption }}</h4>
+      </div>
+    </ng-template>
+
+    <ng-template ngbSlide *ngIf="projects[0].pictures[2]">
+      <img [src]="projects[0].pictures[2].src" class="image">
+      <div class="carousel-caption">
+        <h4>{{ projects[0].pictures[2].caption }}</h4>
+      </div>
+    </ng-template>
+
+    <ng-template ngbSlide *ngIf="projects[0].pictures[3]">
+      <img [src]="projects[0].pictures[3].src" class="image">
+      <div class="carousel-caption">
+        <h4>{{ projects[0].pictures[3].caption }}</h4>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+
+  <div class="btn">
+    <a href="{{projects[0].github}}" target="_blank"><button mat-raised-button>View Github Repository</button></a>
+  </div>
+</div>

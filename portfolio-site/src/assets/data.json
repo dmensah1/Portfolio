@@ -20,7 +20,20 @@
         "Java"
       ],
       "icon": "assets/project-imgs/Sketchpad/thumbnail.png",
-      "pictures": []
+      "pictures": [
+        {
+          "caption": "Sample picture drawn by me.",
+          "src": "assets/project-imgs/Sketchpad/thumbnail.png"
+        },
+        {
+          "caption": "Save Option",
+          "src": "assets/project-imgs/Sketchpad/img-1.png"
+        },
+        {
+          "caption": "Another doodle by me!",
+          "src": "assets/project-imgs/Sketchpad/img-2.png"
+        }
+      ]
     },
     {
       "name": "captivateyouth.ca",
@@ -49,7 +62,20 @@
        "Java"
       ],
       "icon": "assets/project-imgs/Mediator/thumbnail.png",
-      "pictures": []
+      "pictures": [
+        {
+          "caption": "Interface for adding a new employee.",
+          "src": "assets/project-imgs/Mediator/thumbnail.png"
+        },
+        {
+          "caption": "Modifying an existing employee profile.",
+          "src": "assets/project-imgs/Mediator/img-1.png"
+        },
+        {
+          "caption": "Selecting employee profile auto-fills the form fields.",
+          "src": "assets/project-imgs/Mediator/img-2.png"
+        }
+      ]
     },
     {
       "name": "Observer Design Pattern",
@@ -61,7 +87,12 @@
        "Java"
       ],
       "icon": "assets/project-imgs/Observer/thumbnail.png",
-      "pictures": []
+      "pictures": [
+        {
+          "caption": "Example of the Observer pattern.",
+          "src": "assets/project-imgs/Observer/thumbnail.png"
+        }
+      ]
     },
     {
       "name": "Sorting Algorithm Visualizer",
@@ -76,7 +107,20 @@
        "CSS"
       ],
       "icon": "assets/project-imgs/Sorting/thumbnail.png",
-      "pictures": []
+      "pictures": [
+        {
+          "caption": "Home page of the app.",
+          "src": "assets/project-imgs/Sorting/thumbnail.png"
+        },
+        {
+          "caption": "Sorted array.",
+          "src": "assets/project-imgs/Sorting/img-1.png"
+        },
+        {
+          "caption": "Merge Sort in progress.",
+          "src": "assets/project-imgs/Sorting/img-2.png"
+        }
+      ]
     },
     {
       "name": "MyMusic",
@@ -92,8 +136,25 @@
        "MongoDB",
        "Node.js"
       ],
-      "icon": "assets/project-imgs/Sketchpad/thumbnail.png",
-      "pictures": []
+      "icon": "assets/project-imgs/MyMusic/thumbnail.png",
+      "pictures": [
+        {
+          "caption": "",
+          "src": "assets/project-imgs/MyMusic/thumbnail.png"
+        },
+        {
+          "caption": "Form for adding a new song.",
+          "src": "assets/project-imgs/MyMusic/img-1.png"
+        },
+        {
+          "caption": "Security & Copyright policy.",
+          "src": "assets/project-imgs/MyMusic/img-2.png"
+        },
+        {
+          "caption": "Admin functionality.",
+          "src": "assets/project-imgs/MyMusic/img-3.png"
+        }
+      ]
     },
     {
       "name": "Personal Portfolio Website",
@@ -121,20 +182,38 @@
        "Node.js"
       ],
       "icon": "assets/project-imgs/RemoteImg/thumbnail.png",
-      "pictures": []
+      "pictures": [
+        {
+          "caption": "Client and Server running on the command line, and image being displayed.",
+          "src": "assets/project-imgs/RemoteImg/thumbnail.png"
+        }
+      ]
     },
     {
       "name": "A Peer Node",
       "id": "PeerNode",
       "summary": "Peer-to-peer program project using Node.js.",
-      "description": "A peer to peer program i nwhich a peer that receives a join request will accept the peer if and only if its peer table is not full. If the peer's table is full then the requesting peer gets redirected to the nearest peer.",
+      "description": "A peer to peer program in which a peer that receives a join request will accept the peer if and only if its peer table is not full. If the peer's table is full then the requesting peer gets redirected to the nearest peer.",
       "github": "https://github.com/dmensah1/A-Peer-Node",
       "skills": [
        "JavaScript",
        "Node.js"
       ],
-      "icon": "assets/project-imgs/Sketchpad/thumbnail.png",
-      "pictures": []
+      "icon": "assets/project-imgs/Peer/thumbnail.png",
+      "pictures": [
+        {
+          "caption": "Peer 2 connected to Peer 1.",
+          "src": "assets/project-imgs/Peer/img-1.png"
+        },
+        {
+          "caption": "Peers 2 and 3 connecting to Peer 1.",
+          "src": "assets/project-imgs/Peer/img-2.png"
+        },
+        {
+          "caption": "Peer 4 rejected from Peer 1 because of full peer table, redirected to Peer 2.",
+          "src": "assets/project-imgs/Peer/thumbnail.png"
+        }
+      ]
     }
   ]
 }

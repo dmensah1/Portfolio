@@ -12,4 +12,12 @@ export class ProjectListComponent implements OnInit{
   ngOnInit() {
     this.projects = JSON.parse(JSON.stringify(data.projects));
   }
+
+  goToTop() {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }
 }
