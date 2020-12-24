@@ -36,7 +36,7 @@
       ]
     },
     {
-      "name": "captivateyouth.ca",
+      "name": "Captivate Youth",
       "id": "CaptivateYouth",
       "summary": "Responsive full-stack website made for the Captivate Youth Foundation.",
       "description": "Working as a freelance web developer, I made the responsive full-stack website of the Captivate Youth Foundation. It is a blog-style website with admin functionality for the executives of the foundation to add, update, and delete posts. AWS S3 and Elastic Beanstalk were used to deploy the website.",
