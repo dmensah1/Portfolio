@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import data from '../../../assets/Data.json';
 
 @Component({
+  selector: 'app-projects',
   templateUrl: './project-list.component.html',
   styleUrls: ['./project-list.component.css']
 })

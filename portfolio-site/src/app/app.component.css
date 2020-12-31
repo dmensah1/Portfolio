@@ -3,3 +3,18 @@ main {
   margin: 1rem auto;
 }
 
+section {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+#home {
+  background-image: url('../assets/project-imgs/backgrounds/pic1.jpg');
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -moz-background-size: cover;
+}

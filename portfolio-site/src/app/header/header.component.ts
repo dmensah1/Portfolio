@@ -16,6 +16,26 @@ export class HeaderComponent {
 
 	closeNav(){
 		this.sidenavWidth = 0;
-	}
+  }
+  
+  toHome() {
+    document.getElementById("home").scrollIntoView({behavior:"smooth"});
+  }
+
+  toAbout() {
+    document.getElementById("about").scrollIntoView({behavior:"smooth"});
+  }
+
+  toWork() {
+    document.getElementById("work").scrollIntoView({behavior:"smooth"});
+  }
+
+  toProjects() {
+    document.getElementById("projects").scrollIntoView({behavior:"smooth"});
+  }
+
+  toContact() {
+    document.getElementById("contact").scrollIntoView({behavior:"smooth"});
+  }
 
 }

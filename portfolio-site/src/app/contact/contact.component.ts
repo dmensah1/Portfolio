@@ -6,6 +6,7 @@ import { faInbox } from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
+  selector: 'app-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
