@@ -1,31 +1,35 @@
-.container {
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 5%;
-}
-
 ul {
   list-style: none;
-}
-
-ngb-carousel {
-  margin: 0 auto;
-  width: 80%;
-}
-
-.image {
-  max-height: 100%;
-  max-width: 100%;
-  object-fit:cover;
-}
-
-.about {
-  margin-top: 20px;
-  width: auto;
-  max-width: 60%;
 }
 
 p {
   font-size: 18px;
   margin-left: 1em;
 }
+
+.row {
+  height: 50%;
+}
+
+.column {
+  width: 50%;
+  float: left;
+}
+
+.image {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+} 
+
+.about {
+  width: auto;
+  max-width: 80%;
+}
+
+.skill-info {
+  width: auto;
+  max-width: 80%;
+}
+
+

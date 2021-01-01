@@ -1,63 +1,56 @@
-<div class="container">
+<div class="row">
+  <div class="column">
+    <div class="about">
+      <h2>About Me</h2>
+      <p>
+        I'm Demir Mensah, a fourth year computer engineering student at Western University from Halifax, NS.
+        I'm an avid problem solver and motivated when I have a complex problem in hand.
+        I've grown up heavily involved in team sports at a young age, going on to play rugby at a high school and provincial level.
+        This has helped me develop key interpersonal skills leading me to be an effective team member.
+        In my spare time I like to exercise, read, and learn about investing.
+      </p>
+    </div>
 
-<ngb-carousel *ngIf="images">
-  <ng-template ngbSlide >
+    <div class="education">
+      <h2>Education</h2>
+      <p>
+        <b>Bachelor of Engineering Science (BESc) - Computer Engineering</b><br>
+        Western University - London, ON <br>
+        Sept 2017 - April 2021
+      </p>
+    </div>
+  </div>
+
+  <div class="column">
     <img [src]="images[0]" class="image">
-    <div class="carousel-caption">
-      <h4>Western University - London, ON</h4>
-    </div>
-  </ng-template>
+  </div>
 
-  <ng-template ngbSlide >
-    <img [src]="images[1]" class="image">
-    <div class="carousel-caption">
-      <h4>The Halifax Harbour</h4>
-    </div>
-  </ng-template>
-</ngb-carousel>
-
-
-<div class="about">
-  <h2>About Me</h2>
-  <p>
-    I'm Demir Mensah, a fourth year computer engineering student at Western University from Halifax, NS.
-    I'm an avid problem solver and motivated when I have a complex problem in hand.
-    I've grown up heavily involved in team sports at a young age, going on to play rugby at a high school and provincial level.
-    This has helped me develop key interpersonal skills leading me to be an effective team member.
-    In my spare time I like to exercise, read, and learn about investing.
-  </p>
 </div>
 
-<div class="education">
-  <h2>Education</h2>
-  <p>
-    <b>Bachelor of Engineering Science (BESc) - Computer Engineering</b><br>
-    Western University - London, ON <br>
-    Sept 2017 - April 2021
-  </p>
-</div>
+<div class="row">
+  <div class="column">
 
-<div class="skills">
-  <h2>Technical Skills</h2>
-   <p> <b>Lanugages/Frameworks</b> <br>
-    Java, C++, JavaScript, Angular, Node.js, MongoDB, Express.js, VHDL </p>
-    <p> <b>Software and IDE's</b> <br>
-      Visual Studio, Visual Studio Code, GitHub, AWS, IntelliJ IDEA, Postman, Matlab, Quartus Prime, Vivado
+    <div class="skill-info">
+      <h2>Technical Skills</h2>
+      <p> <b>Lanugages/Frameworks</b> <br>
+        Java, C++, JavaScript, Angular, Node.js, MongoDB, Express.js, VHDL </p>
+        <p> <b>Software and IDE's</b> <br>
+          Visual Studio, Visual Studio Code, GitHub, AWS, IntelliJ IDEA, Postman, Matlab, Quartus Prime, Vivado
+        </p>
+    </div>
+
+  </div>
+
+  <div class="column">
+    <h2>Awards</h2>
+    <p><b>Western University</b> <br>
+      $2000 Entrance Scholarship
     </p>
-</div>
 
-<div>
-  <h2>Awards</h2>
-  <p><b>Western University</b> <br>
-    $2000 Entrance Scholarship
-  </p>
-</div>
-
-<div>
-  <h2>Languages</h2>
-  <p>
-    <b>Fluent in: </b> English and Turkish <br>
-    <b>Intermediate in: </b> French
-  </p>
-</div>
+    <h2>Languages</h2>
+    <p>
+      <b>Fluent in: </b> English and Turkish <br>
+      <b>Intermediate in: </b> French
+    </p>
+  </div>
 </div>
