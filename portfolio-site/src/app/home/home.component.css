@@ -1,7 +1,7 @@
 .container {
   width: 100%;
   margin: 0 auto;
-
+  padding-top: 2%;
 }
 
 .text-container {
@@ -9,10 +9,59 @@
   margin: 0 auto;
   text-align: center;
   color: black;
-
 }
 
 h1 {
   margin: 8px auto;
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  h1 {
+    margin: 16px auto;
+    font-size: 20px;
+  }
+  
+  h5 {
+    font-size: 14px;
+  }
+
+  .container {
+    padding-top: 4%;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  h1 {
+    margin: 16px auto;
+    font-size: 28px;
+  }
+  
+  h5 {
+    font-size: 16px;
+  }
+
+  .container {
+    padding-top: 6%;
+  }
+}
+
+@media only screen and (min-width: 1248px) {
+
+}
+
+@media only screen and (min-width: 1536px) {
+  h1 {
+    font-size: 36px;
+  }
+  
+  h5 {
+    font-size: 22px;
+  }
 }
 

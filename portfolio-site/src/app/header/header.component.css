@@ -1,6 +1,6 @@
 ul {
   list-style: none;
-  padding-right: 10%;
+  padding-right: 2%;
   margin: 0;
   display: flex;
 }
@@ -11,12 +11,12 @@ li {
 
 a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 8px;
   color: black;
 }
 
 .title-span {
-  padding-left: 10%;
+  padding-left: 2%;
 }
 
 .void {
@@ -37,5 +37,61 @@ a {
 }
 
 .title {
-  font-size: 22px;
+  font-size: 12px;
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  a {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .title-span {
+    padding-left: 5%;
+  }
+
+  ul {
+    padding-right: 5%;;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  a {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .title-span {
+    padding-left: 8%;
+  }
+
+  ul {
+    padding-right: 8%;;
+  }
+}
+
+@media only screen and (min-width: 1248px) {
+  a {
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .title-span {
+    padding-left: 10%;
+  }
+
+  ul {
+    padding-right: 10%;;
+  }
+}
+

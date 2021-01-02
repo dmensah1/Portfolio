@@ -1,0 +1,40 @@
+<h2>Work Experience</h2>
+
+<div class="timeline">
+
+    <div class="container left">
+        <div class="content">
+            <h3 class="date"> {{ experiences[0].dates }}</h3>
+            <h5 class="title">{{ experiences[0].title }}</h5>
+            <h5><a class="employer" href="{{experiences[0].employerSite}}" target="_blank">{{ experiences[0].employer }}</a></h5>
+            <br>
+            <ul class="points">
+                <li *ngFor="let keyPoint of experiences[0].keyPoints">{{keyPoint}}</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container right">
+        <div class="content">
+            <h3 class="date"> {{ experiences[1].dates }}</h3>
+            <h5 class="title">{{ experiences[1].title }}</h5>
+            <h5><a class="employer" href="{{experiences[1].employerSite}}" target="_blank">{{ experiences[1].employer }}</a></h5>
+            <br>
+            <ul class="points">
+                <li *ngFor="let keyPoint of experiences[1].keyPoints">{{keyPoint}}</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container left">
+        <div class="content">
+            <h3 class="date"> {{ experiences[2].dates }}</h3>
+            <h5 class="title">{{ experiences[2].title }}</h5>
+            <h5><a class="employer" href="{{experiences[2].employerSite}}" target="_blank">{{ experiences[2].employer }}</a></h5>
+            <br>
+            <ul class="points">
+                <li *ngFor="let keyPoint of experiences[2].keyPoints">{{keyPoint}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

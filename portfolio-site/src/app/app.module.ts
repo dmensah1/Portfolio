@@ -17,6 +17,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ProjectListComponent } from './projects/project-list/project-list.component';
 import { MatCardModule } from '@angular/material/card';
 import { ProjectViewComponent } from './projects/project-view/project-view.component';
+import { WorkComponent } from './work/work.component';
+import { ProjectPreviewComponent } from './projects/project-preview/project-view.component';
 
 
 
@@ -28,7 +30,9 @@ import { ProjectViewComponent } from './projects/project-view/project-view.compo
     HomeComponent,
     ContactComponent,
     ProjectListComponent,
-    ProjectViewComponent
+    ProjectViewComponent,
+    ProjectPreviewComponent,
+    WorkComponent
   ],
   imports: [
     BrowserModule,

@@ -3,11 +3,16 @@
     "Java",
     "JavaScript",
     "Angular",
-    "CSS",
-    "HTML",
+    "HTML/CSS",
     "Node.js",
+    "Express.js",
     "MongoDB",
-    "C++"
+    "C++",
+    "Python",
+    "MySQL",
+    "Firebase",
+    "Mocha",
+    "VHDL"
   ],
   "projects" : [
     {
@@ -213,6 +218,41 @@
           "caption": "Peer 4 rejected from Peer 1 because of full peer table, redirected to Peer 2.",
           "src": "assets/project-imgs/Peer/thumbnail.png"
         }
+      ]
+    }
+  ],
+  "work" : [
+    {
+      "title": "Freelance Web Developer",
+      "employer": "Captivate Youth Foundation",
+      "employerSite": "https://www.captivateyouth.com/",
+      "dates": "June, 2020 - July, 2020",
+      "summary": "I helped develop the full-stack web application for the captivate youth organization founded by Western University students. I worked closely with the founders of the organization to ensure that the website fit their needs and met their expectations.",
+      "keyPoints": [
+          "Worked through the entire software development lifecycle to design and ship a website that had to meet client requirements",
+          "Progressed my development skills in Angular and Node.js"
+      ]
+    },
+    {
+      "title": "Financial Services Representative",
+      "employer": "Credit Union Atlantic",
+      "employerSite": "https://www.cua.com/Home/",
+      "dates": "July, 2018 - March, 2020",
+      "summary": "As a bank teller at CUA I was the front-line service representative for members and local businesses coming into the branch to perform various financial transactions. This role helped me further my financial knowledge, answering various questions regarding members personal finances. Furthermore, I developed many connections with local business owners and members through helping them with their finances.",
+      "keyPoints": [
+          "Accelerated branch revenue growth by 2% by recruiting new members",
+          "Prepared and processed large money orders (up to $400,000)"
+      ]
+    },
+    {
+      "title": "Data Entry Representative",
+      "employer": "Gracenote, A Nielsen Company",
+      "employerSite": "https://www.gracenote.com/",
+      "dates": "August, 2016 - July, 2017",
+      "summary": "Working alongside 50-70 employees at any given time, I kept record of real-time sports data at Gracenote for all major sports leagues. In this position, I used my sports knowledge to help me efficiently keep track of multiple sports games at the same time. This data was published in real-time to Gracenote's sports website where gambling odds were generated.",
+      "keyPoints": [
+          "Recorded real-time sports statistics into company database",
+          "Analyzed other employees work before data was published to clients to ensure 100% accuracy"
       ]
     }
   ]

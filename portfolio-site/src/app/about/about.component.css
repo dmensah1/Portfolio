@@ -3,8 +3,12 @@ ul {
 }
 
 p {
-  font-size: 18px;
+  font-size: 10px;
   margin-left: 1em;
+}
+
+h2 {
+  font-size: 14px;
 }
 
 .row {
@@ -20,6 +24,8 @@ p {
   max-height: 100%;
   max-width: 100%;
   object-fit: cover;
+  display: block;
+  margin: 0 auto;
 } 
 
 .about {
@@ -32,4 +38,57 @@ p {
   max-width: 80%;
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 10px;
+  }
 
+  h2 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  p {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .about {
+    max-width: 90%;
+  }
+
+  .skill-info {
+    max-width: 90%;
+  }
+
+
+}
+
+@media only screen and (min-width: 1248px) {
+  p {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  .row {
+    margin-bottom: 5%;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  p {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+}
