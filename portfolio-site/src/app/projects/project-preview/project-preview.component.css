@@ -20,7 +20,7 @@ p {
     width: 30%;
     display: inherit;
     transition: 0.2s ease;
-    margin: 1rem;
+    margin: 1rem auto;
     cursor: pointer;
 }
 

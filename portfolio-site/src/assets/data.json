@@ -48,8 +48,7 @@
       "github": "https://github.com/dmensah1/captivate-youth",
       "skills": [
         "Angular",
-        "HTML",
-        "CSS",
+        "HTML/CSS",
         "JavaScript",
         "Node.js",
         "MongoDB"
@@ -108,8 +107,7 @@
       "skills": [
        "JavaScript",
        "Angular",
-       "HTML",
-       "CSS"
+       "HTML/CSS"
       ],
       "icon": "assets/project-imgs/Sorting/thumbnail.png",
       "pictures": [
@@ -136,8 +134,7 @@
       "skills": [
        "JavaScript",
        "Angular",
-       "HTML",
-       "CSS",
+       "HTML/CSS",
        "MongoDB",
        "Node.js"
       ],
@@ -170,8 +167,7 @@
       "skills": [
        "JavaScript",
        "Angular",
-       "HTML",
-       "CSS"
+       "HTML/CSS"
       ],
       "icon": "assets/project-imgs/Sketchpad/thumbnail.png",
       "pictures": []
