@@ -25,11 +25,11 @@ export class ProjectViewComponent implements OnInit{
   }
 
   ngOnInit() {
-   // console.log(this.projectId);
+    console.log(this.projectId);
     this.projects = JSON.parse(JSON.stringify(data.projects));
     this.projects = this.projects.filter(project => project.id == this.projectId);
     this.projectImgs = this.projects[0].pictures;
     this.projectSkills = this.projects[0].skills;
-    console.log(this.projectSkills);
+    //console.log(this.projectSkills);
   }
 }

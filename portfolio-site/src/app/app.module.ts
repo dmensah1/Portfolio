@@ -18,7 +18,7 @@ import { ProjectListComponent } from './projects/project-list/project-list.compo
 import { MatCardModule } from '@angular/material/card';
 import { ProjectViewComponent } from './projects/project-view/project-view.component';
 import { WorkComponent } from './work/work.component';
-import { ProjectPreviewComponent } from './projects/project-preview/project-view.component';
+import { ProjectPreviewComponent } from './projects/project-preview/project-preview.component';
 
 
 

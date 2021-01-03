@@ -1,0 +1,22 @@
+.row {
+    flex-wrap: wrap;
+    flex-direction: row;
+	margin: 0;
+}
+
+.column {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    float: left;
+    width: 30%;
+    display: inherit;
+    transition: 0.2s ease;
+    margin: 1rem;
+
+    cursor: pointer;
+}
+
+.content-box {
+    padding: 10px;
+}
