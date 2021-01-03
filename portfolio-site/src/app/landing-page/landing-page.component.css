@@ -3,31 +3,60 @@ section {
     width: 80%;
     margin: 0 auto;
     padding-top: 15%;
-  }
-  
-  hr {
+}
+
+hr {
     background-color: black;
     width: 80%;
-  }
+}
+
+.btn {
+    font-family: monospace;
+    background: #656668;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 0.5rem;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+    width: auto;
+    position: relative;
+    margin-top: 2%;
+    float: right;
+    margin-right: 5%;
+}
+
+.btn:hover {
+    background: #a5a5aa;
+    transition: all 0.5s;
+    border-radius: 10px;
+    box-shadow: #0000ff61;
+    padding: 1rem 2rem 1rem 1rem;
+}
   
-  #home {
+#home {
     background-image: url('../../assets/project-imgs/backgrounds/pic1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -moz-background-size: cover;
-  }
+}
   
-  #contact {
-    height: 50%;
-  }
-  
-  #work {
+#work {
     height: 110%;
-  }
+}
+
+#projects {
+    height: 70%;
+}
+
+#contact {
+    height: 30%;
+}
   
-  @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     section {
       padding-top: 8%;
     }
@@ -35,16 +64,16 @@ section {
     #work {
       height: 160%;
     }
-  }
+}
   
-  @media only screen and (min-width: 950px) {
+@media only screen and (min-width: 950px) {
     section {
       padding-top: 5%;
       height: 100%;
     }
-  }
+}
   
-  @media only screen and (min-width: 1248px) {
+@media only screen and (min-width: 1248px) {
     section {
       height: 100%;
       padding-top: 3%;
@@ -59,4 +88,4 @@ section {
     #work {
       height: 140%;
     }
-  }
+}
