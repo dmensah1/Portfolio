@@ -1,3 +1,11 @@
+h2 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 10px;
+}
+
 .row {
     flex-wrap: wrap;
     flex-direction: row;
@@ -13,10 +21,45 @@
     display: inherit;
     transition: 0.2s ease;
     margin: 1rem;
-
     cursor: pointer;
 }
 
 .content-box {
     padding: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    h2 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 12px;
+    }
+}
+  
+@media only screen and (min-width: 950px) {
+    h2 {
+        font-size: 24px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+}
+  
+@media only screen and (min-width: 1248px) {
+    h2 {
+        font-size: 28px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+}
+  
+@media only screen and (min-width: 1536px) {
+    h2 {
+        font-size: 30px;
+    }
 }

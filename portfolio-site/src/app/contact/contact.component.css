@@ -1,15 +1,5 @@
-.container {
-  width: 100%;
-  margin: 0 auto;
-  padding-bottom: 5%;
-}
-
-h5 {
-  margin-top: 2%;
-}
-
 fa-icon {
-  font-size: 70px;
+  font-size: 40px;
   color: black;
 }
 
@@ -23,8 +13,45 @@ ul {
   flex-wrap: wrap;
   margin-top: 5%;
   width: 70%;
+  padding-bottom: 5%;
 }
 
 li {
   margin: auto;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  fa-icon {
+    font-size: 50px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 1248px) {
+  fa-icon {
+    font-size: 70px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+  
+  h5 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+
 }
