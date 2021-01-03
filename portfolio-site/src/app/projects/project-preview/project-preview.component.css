@@ -28,6 +28,30 @@ p {
     padding: 10px;
 }
 
+.column::after {
+    content: "";
+    border-radius: 5px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+  
+.column:hover {
+-webkit-transform: scale(1.1, 1.1);
+transform: scale(1.1, 1.1);
+}
+
+.column:hover::after {
+    opacity: 1;
+}
+
+
 @media only screen and (min-width: 768px) {
     h2 {
         font-size: 20px;
@@ -63,3 +87,4 @@ p {
         font-size: 30px;
     }
 }
+

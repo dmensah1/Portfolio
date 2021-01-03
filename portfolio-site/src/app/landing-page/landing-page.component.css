@@ -48,7 +48,7 @@ hr {
 }
 
 #projects {
-    height: 85%;
+    height: 115%;
 }
 
 #contact {
@@ -61,9 +61,9 @@ hr {
       padding-top: 8%;
     }
   
-    #work {
+    /* #work {
       height: 130%;
-    }
+    } */
 
     .btn {
       font-size: 1.5em;
@@ -76,13 +76,21 @@ hr {
       height: 100%;
     }
 
-    #work {
+    /* #work {
       height: 125%;
-    }
+    } */
 
     #projects {
-      height: 90%;
+      height: 120%;
     }
+}
+/* Break point for when project tiles split into single row */
+@media only screen and (min-width: 1200px) {
+  #projects {
+    height: 75%;
+  }
+
+  
 }
   
 @media only screen and (min-width: 1248px) {
@@ -95,13 +103,33 @@ hr {
       background-size: 70%;
     }
 
-    #projects {
-      height: 70%;
+    #work {
+      height: 140%;
     }
   }
   
   @media only screen and (min-width: 1536px) {
-    #work {
+    /* #work {
       height: 140%;
-    }
+    } */
+}
+
+@media only screen and (min-height: 767px) {
+  #work {
+    height: 135%;
+  }
+}
+
+@media only screen and (min-height: 1080px) {
+  #work {
+    height: 105%;
+  }
+
+  #projects {
+    height: 60%;
+  }
+
+  #about {
+    height: 85%
+  }
 }
