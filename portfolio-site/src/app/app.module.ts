@@ -21,8 +21,6 @@ import { WorkComponent } from './work/work.component';
 import { ProjectPreviewComponent } from './projects/project-preview/project-preview.component';
 import { LandingComponent } from './landing-page/landing-page.component';
 
-
-
 @NgModule({
   declarations: [
     AppComponent,

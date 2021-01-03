@@ -9,6 +9,7 @@ import data from '../../../assets/Data.json';
 export class ProjectListComponent implements OnInit{
 
   projects: any;
+  searchWord: string;
 
   ngOnInit() {
     this.projects = JSON.parse(JSON.stringify(data.projects));
