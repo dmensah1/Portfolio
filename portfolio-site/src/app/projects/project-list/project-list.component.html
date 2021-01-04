@@ -4,28 +4,25 @@
   <div class="language-list">
     <ul>
       <li>
-        <button mat-raised-button >See All</button>
+        <button mat-raised-button (click)="filterPicked('See All')">See All</button>
       </li>
       <li>
-        <button mat-raised-button >Java</button>
+        <button mat-raised-button (click)="filterPicked('Java')">Java</button>
       </li>
       <li>
-        <button mat-raised-button >JavaScript</button>
+        <button mat-raised-button (click)="filterPicked('JavaScript')">JavaScript</button>
       </li>
       <li>
-        <button mat-raised-button >C++</button>
+        <button mat-raised-button (click)="filterPicked('HTML/CSS')">HTML/CSS</button>
       </li>
       <li>
-        <button mat-raised-button>HTML/CSS</button>
+        <button mat-raised-button (click)="filterPicked('Angular')">Angular</button>
       </li>
       <li>
-        <button mat-raised-button>Angular</button>
+        <button mat-raised-button (click)="filterPicked('Node.js')">Node.js</button>
       </li>
       <li>
-        <button mat-raised-button>Node.js</button>
-      </li>
-      <li>
-        <button mat-raised-button>Ionic</button>
+        <button mat-raised-button (click)="filterPicked('Ionic')">Ionic</button>
       </li>
     </ul>
   </div>

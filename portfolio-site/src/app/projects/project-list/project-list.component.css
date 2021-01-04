@@ -27,7 +27,7 @@ button:hover {
 button:active {
   background-color:transparent;
   border-color: black;
-  border: 5px solid black;
+  /* border: 5px solid black; */
 }
 
 li {

@@ -9,10 +9,50 @@ import data from '../../../assets/Data.json';
 export class ProjectListComponent implements OnInit{
 
   projects: any;
-  searchWord: string;
+  filters: any = [];
+  selectedFilter: any;
 
   ngOnInit() {
     this.projects = JSON.parse(JSON.stringify(data.projects));
+
+    this.projects.forEach(project => {
+        project.skills.forEach(skill => {
+          let duplicateSkill = false;
+
+          this.filters.forEach(filter => {
+            if (filter == skill) {
+              duplicateSkill = true;
+            }
+          });
+
+          if (!duplicateSkill) {
+            this.filters.push(skill);
+          }
+        });
+    });
+  }
+
+  filterPicked(filter) {
+    this.projects = JSON.parse(JSON.stringify(data.projects));
+    
+    if (filter == 'See All' || !filter) {
+      return;
+    } 
+    else {
+      this.projects = this.getFilteredProjects(filter);
+    }
+  }
+
+  getFilteredProjects(filter) {
+    let filteredProjects = [];
+
+    this.projects.forEach(project => {
+      if (project.skills.includes(filter)) {
+        filteredProjects.push(project);
+      }
+    });
+
+    return filteredProjects;
   }
 
   goToTop() {
