@@ -5,6 +5,7 @@
     "Angular",
     "HTML/CSS",
     "Node.js",
+    "Ionic",
     "Express.js",
     "MongoDB",
     "C++",
@@ -15,6 +16,67 @@
     "VHDL"
   ],
   "projects" : [
+    {
+      "name": "FitFromHome",
+      "id": "FitFromHome",
+      "summary": "A platform that allows users to schedule virtual fitness sessions.",
+      "description": "With COVID-19 lockdowns taking place across the province, myself and three of my classmates had the idea to build an app that allows people to participate in virtual fitness classes. FitFromHome was built at HackWestern 7 and it allows users to browse and choose from a wide variety of workouts for all skill levels, hosted by experienced trainers. Users are able to browse the catalog of scheduled workout classes, pick and choose classes they want to attend, and then register and attend the live video class. The fitness classes are run via web cam in the browser with the use of Socket.io to set up live video calling. Fitness instructors are also able to run individual as well as group sessions on the app.",
+      "github": "https://github.com/aryavatan/FitFromHome",
+      "devpost": "https://devpost.com/software/fitfromhome",
+      "skills": [
+        "Angular",
+        "Node.js",
+        "Firebase",
+        "Express.js",
+        "Socket.io"
+      ],
+      "icon": "assets/project-imgs/FitFromHome/thumbnail.png",
+      "pictures": [
+        {
+          "caption": "Landing Page",
+          "src": "assets/project-imgs/FitFromHome/thumbnail.png"
+        },
+        {
+          "caption": "User's personalized ashboard",
+          "src": "assets/project-imgs/FitFromHome/img-1.png"
+        },
+        {
+          "caption": "Explore page with training sessions available to be booked",
+          "src": "assets/project-imgs/FitFromHome/img-2.png"
+        },
+        {
+          "caption": "Session information page",
+          "src": "assets/project-imgs/FitFromHome/img-3.png"
+        }
+      ]
+    },
+    {
+      "name": "PairBnB",
+      "id": "PairBnB",
+      "summary": "A cross-platform mobile app allowing couples to book stays at houses.",
+      "description": "To learn making cross-platform mobile apps with Ionic, I created PairBnB which is an app for couples to book houses posted by owners for their vacations - much like AirBnB. I implemented native device features such as using the device's camera and geolocation to make it easier for hosts to create their house offerings. I also implemented other mobile platform development features and standards such as modals and hamburger menus to improve the user experience when navigating through the app.",
+      "github": "https://github.com/dmensah1/PairBnB",
+      "skills": [
+        "Ionic",
+        "Angular",
+        "Firebase"
+      ],
+      "icon": "assets/project-imgs/PairBnB/thumbnail.png",
+      "pictures": [
+        {
+          "caption": "The main discover tab",
+          "src": "assets/project-imgs/PairBnB/thumbnail.png"
+        },
+        {
+          "caption": "Property view, can browse property features and book.",
+          "src": "assets/project-imgs/PairBnB/img-1.png"
+        },
+        {
+          "caption": "A user's booked properties",
+          "src": "assets/project-imgs/PairBnB/img-2.png"
+        }
+      ]
+    },
     {
       "name": "Java Sketchpad",
       "id": "Sketchpad",
@@ -44,7 +106,7 @@
       "name": "Captivate Youth",
       "id": "CaptivateYouth",
       "summary": "Responsive full-stack website made for the Captivate Youth Foundation.",
-      "description": "Working as a freelance web developer, I made the responsive full-stack website of the Captivate Youth Foundation. It is a blog-style website with admin functionality for the executives of the foundation to add, update, and delete posts. AWS S3 and Elastic Beanstalk were used to deploy the website.",
+      "description": "Working as a freelance web developer, I made the responsive full-stack website of the Captivate Youth Foundation. It is a blog-style website with admin functionality for the executives of the foundation to add, update, and delete posts. AWS S3 and Elastic Beanstalk were used to deploy and host the website.",
       "github": "https://github.com/dmensah1/captivate-youth",
       "skills": [
         "Angular",
@@ -53,8 +115,44 @@
         "Node.js",
         "MongoDB"
       ],
-      "icon": "assets/project-imgs/Sketchpad/thumbnail.png",
-      "pictures": []
+      "icon": "assets/project-imgs/captivate-yth/thumbnail.png",
+      "pictures": [
+        {
+          "caption": "Home Page",
+          "src": "assets/project-imgs/captivate-yth/thumbnail.png"
+        },
+        {
+          "caption": "The captivate youth team",
+          "src": "assets/project-imgs/captivate-yth/img-1.png"
+        },
+        {
+          "caption": "Contact Page",
+          "src": "assets/project-imgs/captivate-yth/img-2.png"
+        }
+      ]
+    },
+    {
+      "name": "Personal Portfolio Website",
+      "id": "Portfolio",
+      "summary": "My personal responsive portfolio website.",
+      "description": "Going into my final year of university I decided to make a personal portfolio website prior to finding a new graduate job opportunity. This website allows me to go into further detail about myself and my projects than I could on a one page resume. Developing this website also helped improve my Angular and front-end design skills, especially in making and designing responsive web applications.",
+      "github": "https://github.com/dmensah1/Portfolio",
+      "skills": [
+       "JavaScript",
+       "Angular",
+       "HTML/CSS"
+      ],
+      "icon": "assets/project-imgs/Portfolio/thumbnail.png",
+      "pictures": [
+        {
+          "caption": "Home Page",
+          "src": "assets/project-imgs/Portfolio/thumbnail.png"
+        },
+        {
+          "caption": "Projects layout",
+          "src": "assets/project-imgs/Portfolio/img-1.png"
+        }
+      ]
     },
     {
       "name": "Mediator Design Pattern",
@@ -157,20 +255,6 @@
           "src": "assets/project-imgs/MyMusic/img-3.png"
         }
       ]
-    },
-    {
-      "name": "Personal Portfolio Website",
-      "id": "Portfolio",
-      "summary": "My personal portfolio website.",
-      "description": "Going into my final year of university I decided to make a personal portfolio website prior to finding a new graduate job opportunity. This website allows me to go into further detail about myself and my projects than I could on a one page resume. Developing this website also helped improve my Angular and front-end design skills.",
-      "github": "https://github.com/dmensah1/Portfolio",
-      "skills": [
-       "JavaScript",
-       "Angular",
-       "HTML/CSS"
-      ],
-      "icon": "assets/project-imgs/Sketchpad/thumbnail.png",
-      "pictures": []
     },
     {
       "name": "Remote Image Display",
