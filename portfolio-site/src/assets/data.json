@@ -19,7 +19,7 @@
     {
       "name": "FitFromHome",
       "id": "FitFromHome",
-      "summary": "A platform that allows users to schedule virtual fitness sessions.",
+      "summary": "A platform that allows users to schedule and participate in virtual fitness sessions.",
       "description": "With COVID-19 lockdowns taking place across the province, myself and three of my classmates had the idea to build an app that allows people to participate in virtual fitness classes. FitFromHome was built at HackWestern 7 and it allows users to browse and choose from a wide variety of workouts for all skill levels, hosted by experienced trainers. Users are able to browse the catalog of scheduled workout classes, pick and choose classes they want to attend, and then register and attend the live video class. The fitness classes are run via web cam in the browser with the use of Socket.io to set up live video calling. Fitness instructors are also able to run individual as well as group sessions on the app.",
       "github": "https://github.com/aryavatan/FitFromHome",
       "devpost": "https://devpost.com/software/fitfromhome",
@@ -37,7 +37,7 @@
           "src": "assets/project-imgs/FitFromHome/thumbnail.png"
         },
         {
-          "caption": "User's personalized ashboard",
+          "caption": "User's personalized dashboard",
           "src": "assets/project-imgs/FitFromHome/img-1.png"
         },
         {
