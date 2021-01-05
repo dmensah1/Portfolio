@@ -1,7 +1,7 @@
 .container {
   margin: 0 auto;
   width: 85%;
-  padding-top: 13%;
+  padding-top: 25%;
   padding-bottom: 5%;
 }
 
@@ -107,6 +107,10 @@ hr {
 
 /* Responsive Styling */
 @media only screen and (min-width: 768px) {
+  .container {
+    padding-top: 13%;
+  }
+  
   h2 {
       font-size: 20px;
   }
