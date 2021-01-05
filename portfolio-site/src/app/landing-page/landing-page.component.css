@@ -3,6 +3,7 @@ section {
     width: 80%;
     margin: 0 auto;
     padding-top: 15%;
+    scroll-margin: 35px;
 }
 
 hr {
@@ -48,7 +49,7 @@ hr {
 }
 
 #projects {
-    height: 115%;
+    height: 75%;
 }
 
 #contact {
@@ -60,10 +61,6 @@ hr {
     section {
       padding-top: 8%;
     }
-  
-    /* #work {
-      height: 130%;
-    } */
 
     .btn {
       font-size: 1.5em;
@@ -75,28 +72,14 @@ hr {
       padding-top: 5%;
       height: 100%;
     }
-
-    /* #work {
-      height: 125%;
-    } */
-
-    #projects {
-      height: 120%;
-    }
 }
-/* Break point for when project tiles split into single row */
-@media only screen and (min-width: 1200px) {
-  #projects {
-    height: 75%;
-  }
 
-  
-}
   
 @media only screen and (min-width: 1248px) {
     section {
       height: 100%;
       padding-top: 3%;
+      scroll-margin: 60px;
     }
   
     #home {
@@ -107,11 +90,11 @@ hr {
       height: 140%;
     }
   }
-  
-@media only screen and (min-width: 1536px) {
-  /* #work {
-    height: 140%;
-  } */
+
+@media only screen and (min-width: 1920px) {
+  section {
+    scroll-margin: 70px;
+  }
 }
 
 @media only screen and (min-height: 767px) {
