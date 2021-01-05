@@ -1,6 +1,7 @@
 <div class="container">
-
+  <button mat-raised-button class="float-right" routerLink='/'><fa-icon [icon]="faAngleLeft"></fa-icon>Back to Home</button>
   <h3>All Projects</h3>
+  <hr>
 
   <div class="language-list">
     <ul>
@@ -28,8 +29,6 @@
     </ul>
   </div>
 
-  <hr>
-
   <div class="row">
     <div class="column" *ngFor="let project of projects" [routerLink]="['/project', project.id]">
         <div class="content-box">
@@ -44,7 +43,7 @@
   <div class="btn-wrap">
     
     <button mat-raised-button class="float-right btn" (click)="goToTop()">Return to Top</button>
-    <button mat-raised-button class="float-right" routerLink='/'><fa-icon [icon]="faAngleLeft"></fa-icon>Back to Home</button>
+    
   </div>
 
 </div>  

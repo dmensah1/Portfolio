@@ -2,7 +2,7 @@
   width: 90%;
   margin: 0 auto;
   padding-bottom: 5%;
-  padding-top: 13%;
+  padding-top: 25%;
 }
 
 ngb-carousel {
@@ -86,21 +86,16 @@ button:hover {
   margin: 0;
 }
 
-.column {
-  /* float: left; */
-}
-
 .pics {
-  /* width: 80%; */
   width: 90%;
   margin: 3% auto;
 }
 
-.info {
- /* width: 20%; */
-}
-
 @media only screen and (min-width: 768px) {
+  .container {
+    padding-top: 13%;
+  }
+
   .column {
     float: left;
   }
