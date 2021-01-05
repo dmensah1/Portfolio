@@ -1,4 +1,7 @@
 <app-header></app-header>
 
+<main>
+    <app-landing></app-landing>
+    <router-outlet (activate)="onActivate($event)"></router-outlet>
+</main>
 
-<router-outlet (activate)="onActivate($event)"></router-outlet>
