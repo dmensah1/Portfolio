@@ -7,11 +7,6 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
-  images = [];
 
-  constructor() {
-
-    //this.images[0] = '/assets/project-imgs/about/western1.jpg';
-
-  }
+  constructor() {}
 }
