@@ -2,15 +2,13 @@ section {
     width: 80%; 
     margin: 0 auto;
     padding-top: 5%;
-    scroll-margin: 35px;
-
     display: block;
     overflow: auto;
+    scroll-margin: 60px;
 }
 
 #home {
   padding-top: 10%;
-  /* height: 75%; */
 }
 
 .btn {
@@ -62,12 +60,9 @@ section {
 @media only screen and (min-width: 1248px) {
     section {
       padding-top: 3%;
-      scroll-margin: 60px;
     }
   }
 
 @media only screen and (min-width: 1920px) {
-  section {
-    scroll-margin: 70px;
-  }
+
 }
