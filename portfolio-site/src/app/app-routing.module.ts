@@ -5,7 +5,7 @@ import { ProjectViewComponent } from './projects/project-view/project-view.compo
 import { LandingComponent } from './landing-page/landing-page.component';
 
 const routes: Routes = [
-  { path: '', component: LandingComponent },
+  { path: 'Portfolio', component: LandingComponent },
   { path: 'list', component: ProjectListComponent},
   { path: 'project/:id', component: ProjectViewComponent}
 ];
