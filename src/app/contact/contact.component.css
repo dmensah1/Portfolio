@@ -16,6 +16,13 @@ ul {
   padding-bottom: 5%;
 }
 
+hr {
+  background-color: black;
+  width: 100%;
+  margin-bottom: 4%;
+}
+
+
 li {
   margin: auto;
 }

@@ -11,14 +11,24 @@ h2 {
   font-size: 14px;
 }
 
-.row {
-  height: 50%;
+.top {
+  margin-bottom: 4%;
+}
+.one {
+  height: 60%;
 }
 
-.column {
-  width: 50%;
-  float: left;
+.two {
+  margin-top: 5%;
+  height: 40%;
 }
+
+hr {
+  background-color: black;
+  width: 100%;
+}
+
+
 
 .image {
   max-height: 100%;
@@ -40,6 +50,15 @@ h2 {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .column {
+    width: 50%;
+    float: left;
+  }
+
+  .two {
+    margin-top: 0;
+  }
+
   p {
     font-size: 10px;
   }
