@@ -5,6 +5,11 @@
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 2%;
+  /* margin-left: 1rem; */
+}
+
+h2 {
+  margin-left: 4%;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -96,7 +101,7 @@
 hr {
   background-color: black;
   width: 100%;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -145,6 +150,7 @@ hr {
     }
 }
 @media screen and (min-width: 768px) {
+  
     h3 {
         font-size: 16px;
     }
@@ -184,6 +190,9 @@ hr {
 }
 
 @media only screen and (min-width: 1536px) {
+    h2 {
+      margin-left: 10%;
+    }
     h3 {
         font-size: 26px;
     }

@@ -1,14 +1,16 @@
 section {
-    height: 80%;
-    width: 80%;
+    width: 80%; 
     margin: 0 auto;
-    padding-top: 15%;
+    padding-top: 5%;
     scroll-margin: 35px;
+
+    display: block;
+    overflow: auto;
 }
 
-hr {
-    background-color: black;
-    width: 80%;
+#home {
+  padding-top: 10%;
+  height: 75%;
 }
 
 .btn {
@@ -34,17 +36,8 @@ hr {
     border-radius: 10px;
     padding: 0.7rem;
 }
-  
-#home {
-    background-image: url('../../assets/project-imgs/backgrounds/pic1.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    -moz-background-size: cover;
-}
-  
-#work {
+
+/* #work {
     height: 110%;
 }
 
@@ -55,40 +48,46 @@ hr {
 #contact {
     height: 30%;
     padding-top: 1%;
-}
+} */
   
 @media only screen and (min-width: 768px) {
     section {
-      padding-top: 8%;
+      /* padding-top: none;
+      height: 80%; */
     }
 
     .btn {
       font-size: 1.5em;
+    }
+
+    #home {
+      padding-top: none;
+      height: none;
     }
 }
   
 @media only screen and (min-width: 950px) {
     section {
       padding-top: 5%;
-      height: 100%;
+      /* height: 100%; */
+    }
+
+    #home {
+      height: 80%;
     }
 }
 
   
 @media only screen and (min-width: 1248px) {
     section {
-      height: 100%;
+      /* height: 100%; */
       padding-top: 3%;
       scroll-margin: 60px;
     }
-  
-    #home {
-      background-size: 70%;
-    }
 
-    #work {
+    /* #work {
       height: 140%;
-    }
+    } */
   }
 
 @media only screen and (min-width: 1920px) {
@@ -98,13 +97,13 @@ hr {
 }
 
 @media only screen and (min-height: 767px) {
-  #work {
+  /* #work {
     height: 135%;
-  }
+  } */
 }
 
 @media only screen and (min-height: 1080px) {
-  #work {
+  /* #work {
     height: 105%;
   }
 
@@ -114,5 +113,5 @@ hr {
 
   #about {
     height: 85%
-  }
+  } */
 }
