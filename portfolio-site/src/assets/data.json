@@ -37,15 +37,15 @@
           "src": "assets/project-imgs/FitFromHome/thumbnail.png"
         },
         {
-          "caption": "User's personalized dashboard",
+          "caption": "Personalized Dashboard",
           "src": "assets/project-imgs/FitFromHome/img-1.png"
         },
         {
-          "caption": "Explore page with training sessions available to be booked",
+          "caption": "Explore Page",
           "src": "assets/project-imgs/FitFromHome/img-2.png"
         },
         {
-          "caption": "Session information page",
+          "caption": "Session Information Page",
           "src": "assets/project-imgs/FitFromHome/img-3.png"
         }
       ]
@@ -64,15 +64,15 @@
       "icon": "assets/project-imgs/PairBnB/thumbnail.png",
       "pictures": [
         {
-          "caption": "The main discover tab",
+          "caption": "Discover Tab",
           "src": "assets/project-imgs/PairBnB/thumbnail.png"
         },
         {
-          "caption": "Property view, can browse property features and book.",
+          "caption": "Property View",
           "src": "assets/project-imgs/PairBnB/img-1.png"
         },
         {
-          "caption": "A user's booked properties",
+          "caption": "User's Booked Properties",
           "src": "assets/project-imgs/PairBnB/img-2.png"
         }
       ]
@@ -122,7 +122,7 @@
           "src": "assets/project-imgs/captivate-yth/thumbnail.png"
         },
         {
-          "caption": "The captivate youth team",
+          "caption": "Captivate Youth Team",
           "src": "assets/project-imgs/captivate-yth/img-1.png"
         },
         {

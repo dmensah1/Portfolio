@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import data from '../../../assets/Data.json';
+import data from '../../../assets/data.json';
+import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-projects',
@@ -11,6 +12,7 @@ export class ProjectListComponent implements OnInit{
   projects: any;
   filters: any = [];
   selectedFilter: any;
+  faAngleLeft = faAngleLeft;
 
   ngOnInit() {
     this.projects = JSON.parse(JSON.stringify(data.projects));

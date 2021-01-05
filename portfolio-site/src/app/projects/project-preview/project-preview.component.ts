@@ -15,9 +15,7 @@ export class ProjectPreviewComponent implements OnInit {
 
     ngOnInit() {
       this.projects = JSON.parse(JSON.stringify(data.projects));
-
       this.projects = this.projects.slice(0, 3);
-      console.log(this.projects);
     }
 
     projectSelected(project) {

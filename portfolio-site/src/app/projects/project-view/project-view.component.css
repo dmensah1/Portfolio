@@ -1,13 +1,13 @@
 .container {
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
-  margin-bottom: 10%;
-  padding-top: 8%;
+  padding-bottom: 5%;
+  padding-top: 7%;
 }
 
 ngb-carousel {
-  margin: 2% auto;
-  width: 80%;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .image {
@@ -17,7 +17,7 @@ ngb-carousel {
 }
 
 h4 {
-  color: dimgray;
+  color: black;
   font-size: 20px;
 }
 
@@ -27,8 +27,9 @@ h4 {
 }
 
 .skills {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
+  margin-bottom: 2%;
 }
 
 ul {
@@ -46,13 +47,60 @@ li {
   background-color: dimgray;
   color: white;
   border-radius: 10px;
+  display: inline-block;
 }
 
-.btn {
-  float: right;
-  margin-right: 8%;
+fa-icon {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.return {
+  margin-bottom: 2%;
+  margin-top: 0;
 }
 
 button {
-  margin: 10px;
+  background: #656668;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.9em;
+  padding: 0.5rem;
+  border: 0;
+  transition: all 0.5s;
+  border-radius: 10px;
+  width: auto;
+  margin-top: 5%;
+}
+
+button:hover {
+  background: #a5a5aa;
+  transition: all 0.5s;
+  border-radius: 10px;
+  padding: 0.7rem;
+}
+
+.row {
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0;
+}
+
+.column {
+  float: left;
+}
+
+.pics {
+  width: 80%;
+}
+
+.info {
+ width: 20%;
+}
+
+
+@media only screen and (min-width: 1536px) {
+  .container {
+    padding-top: 7%;
+  }
 }

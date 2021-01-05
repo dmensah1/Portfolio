@@ -1,4 +1,5 @@
 <div class="container">
+  <button class="return" (click)="backClicked()"><fa-icon [icon]="faAngleLeft"></fa-icon>Back</button>
   <h1>{{ projects[0].name }}</h1>
 
   <div class="description">
@@ -6,7 +7,7 @@
   </div>
 
   <div class="skills">
-    <p><b><u>Built Using</u></b></p>
+    <h5><b><u>Built Using</u></b></h5>
     <ul>
       <li *ngFor="let skill of projectSkills">
         {{ skill }}
@@ -14,37 +15,46 @@
     </ul>
   </div>
 
-  <ngb-carousel *ngIf="projects[0].pictures">
-    <ng-template ngbSlide >
-      <img [src]="projects[0].pictures[0].src" class="image">
-      <div class="carousel-caption">
-        <h4>{{ projects[0].pictures[0].caption }}</h4>
-      </div>
-    </ng-template>
+  <div class="row">
+    <div class="pics column">
+      <ngb-carousel *ngIf="projects[0].pictures">
+        <ng-template ngbSlide >
+          <img [src]="projects[0].pictures[0].src" class="image">
+          <div class="carousel-caption">
+            <h4>{{ projects[0].pictures[0].caption }}</h4>
+          </div>
+        </ng-template>
+    
+        <ng-template ngbSlide *ngIf="projects[0].pictures[1]">
+          <img [src]="projects[0].pictures[1].src" class="image">
+          <div class="carousel-caption">
+            <h4>{{ projects[0].pictures[1].caption }}</h4>
+          </div>
+        </ng-template>
+    
+        <ng-template ngbSlide *ngIf="projects[0].pictures[2]">
+          <img [src]="projects[0].pictures[2].src" class="image">
+          <div class="carousel-caption">
+            <h4>{{ projects[0].pictures[2].caption }}</h4>
+          </div>
+        </ng-template>
+    
+        <ng-template ngbSlide *ngIf="projects[0].pictures[3]">
+          <img [src]="projects[0].pictures[3].src" class="image">
+          <div class="carousel-caption">
+            <h4>{{ projects[0].pictures[3].caption }}</h4>
+          </div>
+        </ng-template>
+      </ngb-carousel>
+    </div>
 
-    <ng-template ngbSlide *ngIf="projects[0].pictures[1]">
-      <img [src]="projects[0].pictures[1].src" class="image">
-      <div class="carousel-caption">
-        <h4>{{ projects[0].pictures[1].caption }}</h4>
+    <div class="info column">
+      <h5><b><u>Want to See More?</u></b></h5>
+      <div class="buttons">
+        <a *ngIf="projects[0].devpost" href="{{projects[0].devpost}}" target="_blank"><button mat-raised-button class="float-left">View DevPost</button></a>
+        <a href="{{projects[0].github}}" target="_blank"><button mat-raised-button class="float-left">View Github Repository</button></a>
       </div>
-    </ng-template>
+    </div>
 
-    <ng-template ngbSlide *ngIf="projects[0].pictures[2]">
-      <img [src]="projects[0].pictures[2].src" class="image">
-      <div class="carousel-caption">
-        <h4>{{ projects[0].pictures[2].caption }}</h4>
-      </div>
-    </ng-template>
-
-    <ng-template ngbSlide *ngIf="projects[0].pictures[3]">
-      <img [src]="projects[0].pictures[3].src" class="image">
-      <div class="carousel-caption">
-        <h4>{{ projects[0].pictures[3].caption }}</h4>
-      </div>
-    </ng-template>
-  </ngb-carousel>
-
-  <div class="btn">
-    <a href="{{projects[0].github}}" target="_blank"><button mat-raised-button>View Github Repository</button></a>
   </div>
 </div>

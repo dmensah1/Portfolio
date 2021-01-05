@@ -13,6 +13,11 @@ ul {
   justify-content: space-around;
 }
 
+fa-icon {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
 button {
   text-align: center;
   font-size: 16px;

@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import data from '../../../assets/Data.json';
+import data from '../../../assets/data.json';
 import { ActivatedRoute } from '@angular/router';
 import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
+import { Location } from '@angular/common';
+import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   templateUrl: './project-view.component.html',
@@ -12,8 +14,9 @@ export class ProjectViewComponent implements OnInit{
   projects: any;
   projectImgs;
   projectSkills;
+  faAngleLeft = faAngleLeft;
 
-  constructor(private route: ActivatedRoute, config: NgbCarouselConfig) {
+  constructor(private route: ActivatedRoute, config: NgbCarouselConfig, private _location: Location) {
     if (this.route.snapshot.params['id']) { // might need to change these to blogId
       this.projectId = this.route.snapshot.paramMap.get('id');
     }
@@ -25,11 +28,13 @@ export class ProjectViewComponent implements OnInit{
   }
 
   ngOnInit() {
-    console.log(this.projectId);
     this.projects = JSON.parse(JSON.stringify(data.projects));
     this.projects = this.projects.filter(project => project.id == this.projectId);
     this.projectImgs = this.projects[0].pictures;
     this.projectSkills = this.projects[0].skills;
-    //console.log(this.projectSkills);
+  }
+
+  backClicked() {
+    this._location.back();
   }
 }

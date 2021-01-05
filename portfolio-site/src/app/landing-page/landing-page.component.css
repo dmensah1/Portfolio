@@ -31,7 +31,7 @@ hr {
     background: #a5a5aa;
     transition: all 0.5s;
     border-radius: 10px;
-    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    padding: 0.7rem;
 }
   
 #home {
@@ -108,10 +108,10 @@ hr {
     }
   }
   
-  @media only screen and (min-width: 1536px) {
-    /* #work {
-      height: 140%;
-    } */
+@media only screen and (min-width: 1536px) {
+  /* #work {
+    height: 140%;
+  } */
 }
 
 @media only screen and (min-height: 767px) {
