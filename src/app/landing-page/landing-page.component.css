@@ -36,26 +36,8 @@ section {
     border-radius: 10px;
     padding: 0.7rem;
 }
-
-/* #work {
-    height: 110%;
-}
-
-#projects {
-    height: 75%;
-}
-
-#contact {
-    height: 30%;
-    padding-top: 1%;
-} */
   
 @media only screen and (min-width: 768px) {
-    section {
-      /* padding-top: none;
-      height: 80%; */
-    }
-
     .btn {
       font-size: 1.5em;
     }
@@ -69,7 +51,6 @@ section {
 @media only screen and (min-width: 950px) {
     section {
       padding-top: 5%;
-      /* height: 100%; */
     }
 
     #home {
@@ -80,38 +61,13 @@ section {
   
 @media only screen and (min-width: 1248px) {
     section {
-      /* height: 100%; */
       padding-top: 3%;
       scroll-margin: 60px;
     }
-
-    /* #work {
-      height: 140%;
-    } */
   }
 
 @media only screen and (min-width: 1920px) {
   section {
     scroll-margin: 70px;
   }
-}
-
-@media only screen and (min-height: 767px) {
-  /* #work {
-    height: 135%;
-  } */
-}
-
-@media only screen and (min-height: 1080px) {
-  /* #work {
-    height: 105%;
-  }
-
-  #projects {
-    height: 60%;
-  }
-
-  #about {
-    height: 85%
-  } */
 }

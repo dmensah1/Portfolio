@@ -28,7 +28,7 @@ img {
 }
 
 .main-nav {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
@@ -46,6 +46,10 @@ img {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .main-nav {
+    position: fixed;
+  }
+
   a {
     font-size: 12px;
   }
