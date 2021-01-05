@@ -11,8 +11,21 @@ h2 {
   font-size: 14px;
 }
 
-.row {
+/* .row {
   height: 50%;
+} */
+
+.one {
+  height: 60%;
+}
+
+.two {
+  height: 40%;
+}
+
+hr {
+  background-color: black;
+  width: 100%;
 }
 
 .column {
