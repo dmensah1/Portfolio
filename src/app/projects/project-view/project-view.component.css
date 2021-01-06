@@ -2,13 +2,14 @@
   width: 90%;
   margin: 0 auto;
   padding-bottom: 5%;
-  padding-top: 15%;
-  margin-top: 15%;
+  padding-top: 5%;
+  margin-top: 5%;
 }
 
 ngb-carousel {
-  margin: 0 auto;
-  width: 90%;
+  margin: 10% auto;
+  /* width: 90%; */
+  width: 100%;
 }
 
 .image {
@@ -19,7 +20,8 @@ ngb-carousel {
 
 h4 {
   color: black;
-  font-size: 20px;
+  font-size: 12px;
+  display: none;
 }
 
 .description {
@@ -37,7 +39,7 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
+  /* display: flex; */
 }
 
 li {
@@ -57,7 +59,7 @@ fa-icon {
 }
 
 .return {
-  margin-bottom: 2%;
+  margin-bottom: 5%;
   margin-top: 0;
 }
 
@@ -92,29 +94,64 @@ button:hover {
   margin: 3% auto;
 }
 
+.dev {
+  margin-right: 5px;
+}
+
+.column {
+  vertical-align: top;
+}
+
 @media only screen and (min-width: 768px) {
+  ngb-carousel {
+    margin: 5% auto;
+  }
+
   .container {
     padding-top: 13%;
-    margin-top: 0;
+    margin-top: 2%;
   }
 
   .column {
     float: left;
   }
-  
-  .pics {
-    width: 80%;
-    
+
+  .return {
+    margin-bottom: 3%;
   }
-  
-  .info {
-   width: 20%;
+
+  h4 {
+    display: inline;
   }
 }
 
 @media only screen and (min-width: 950px) {
   .container {
+    padding-top: 10%;
+  }
+
+  ngb-carousel {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .pics {
+    width: 80%;
+    
+  }
+  .info {
+   width: 20%;
+  }
+}
+
+@media only screen and (min-width: 1248px) {
+  .container {
     padding-top: 8%;
+    margin-top: 0;
+  }
+
+  .return {
+    margin-bottom: 2%;
   }
 }
 
