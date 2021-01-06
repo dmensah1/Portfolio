@@ -149,8 +149,12 @@
           "src": "assets/project-imgs/Portfolio/thumbnail.png"
         },
         {
-          "caption": "Projects layout",
+          "caption": "Projects Grid",
           "src": "assets/project-imgs/Portfolio/img-1.png"
+        },
+        {
+          "caption": "Project View",
+          "src": "assets/project-imgs/Portfolio/img-2.png"
         }
       ]
     },
