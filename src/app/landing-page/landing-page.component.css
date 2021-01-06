@@ -7,9 +7,25 @@ section {
   scroll-margin: 60px;
 }
 
+.text-container {
+  padding-top: 7%;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
 #home {
-  padding-top: 10%;
   height: 40%;
+  padding-top: none;
+}
+
+h1 {
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 12px;
 }
 
 .btn {
@@ -42,29 +58,64 @@ fa-icon {
 }
   
 @media only screen and (min-width: 768px) {
+  .text-container {
+    padding-top: 15%;;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+  
+  h5 {
+    font-size: 18px;
+  }
+
   .btn {
     font-size: 1.5em;
   }
 
   #home {
-    padding-top: none;
     height: 50%;
   }
 }
   
 @media only screen and (min-width: 950px) {
-    section {
-      padding-top: 5%;
-    }
+  .text-container {
+    padding-top: 12%;;
+  }
 
-    #home {
-      height: 80%;
-    }
+  h1 {
+    font-size: 28px;
+  }
+  
+  h5 {
+    font-size: 16px;
+  }
+
+  section {
+    padding-top: 5%;
+  }
+
+  #home {
+    height: 80%;
+  }
 }
 
   
 @media only screen and (min-width: 1248px) {
-    section {
-      padding-top: 3%;
-    }
+  .text-container {
+    padding-top: 8%;
   }
+
+  h1 {
+    font-size: 34px;
+  }
+  
+  h5 {
+    font-size: 20px;
+  }
+
+  section {
+    padding-top: 3%;
+  }
+}

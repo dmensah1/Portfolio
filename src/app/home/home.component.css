@@ -2,7 +2,6 @@
   width: 80%;
   height: 100%;
   margin: 0 auto;
-  padding-top: 10%;
 
   background-image: url('../../assets/project-imgs/backgrounds/pic1.jpg');
   background-position: center center;
@@ -38,9 +37,9 @@ h5 {
     font-size: 14px;
   }
 
-  .container {
+  /* .container {
     padding-top: 5%;
-  }
+  } */
 }
 
 @media only screen and (min-width: 950px) {

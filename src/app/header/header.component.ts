@@ -22,7 +22,7 @@ export class HeaderComponent {
   }
   
   toHome() {
-    document.getElementById("home").scrollIntoView({behavior:"smooth"});
+    document.getElementById("home2").scrollIntoView({behavior:"smooth"});
   }
 
   toAbout() {
