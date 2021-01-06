@@ -44,10 +44,18 @@ img {
   font-size: 12px;
 }
 
+.hide {
+  display: none;
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .main-nav {
     position: fixed;
+  }
+
+  .hide {
+    display:inline;
   }
 
   a {
