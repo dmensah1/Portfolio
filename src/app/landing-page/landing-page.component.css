@@ -35,6 +35,11 @@ section {
   border-radius: 10px;
   padding: 0.7rem;
 }
+
+fa-icon {
+  margin-left: 8px;
+  font-size: 16px;
+}
   
 @media only screen and (min-width: 768px) {
   .btn {
