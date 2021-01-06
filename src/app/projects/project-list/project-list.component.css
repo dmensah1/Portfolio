@@ -1,8 +1,9 @@
 .container {
   margin: 0 auto;
   width: 85%;
-  padding-top: 45%;
+  padding-top: 15%;
   padding-bottom: 5%;
+  margin-top: 15%;
 }
 
 ul {
@@ -32,7 +33,6 @@ button:hover {
 button:active {
   background-color:transparent;
   border-color: black;
-  /* border: 5px solid black; */
 }
 
 li {
@@ -109,6 +109,7 @@ hr {
 @media only screen and (min-width: 768px) {
   .container {
     padding-top: 13%;
+    margin-top: 0;
   }
   
   h2 {

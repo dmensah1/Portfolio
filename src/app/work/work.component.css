@@ -5,7 +5,6 @@
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 2%;
-  /* margin-left: 1rem; */
 }
 
 h2 {
@@ -101,7 +100,7 @@ h2 {
 hr {
   background-color: black;
   width: 100%;
-  margin-top: 5%;
+  margin-bottom: 4%;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */

@@ -26,18 +26,22 @@ export class HeaderComponent {
   }
 
   toAbout() {
+    this.router.navigate(['/']);
     document.getElementById("about").scrollIntoView({behavior:"smooth"});
   }
 
   toWork() {
+    this.router.navigate(['/']);
     document.getElementById("work").scrollIntoView({behavior:"smooth"});
   }
 
   toProjects() {
+    this.router.navigate(['/']);
     document.getElementById("projects").scrollIntoView({behavior:"smooth"});
   }
 
   toContact() {
+    this.router.navigate(['/']);
     document.getElementById("contact").scrollIntoView({behavior:"smooth"});
   }
 
